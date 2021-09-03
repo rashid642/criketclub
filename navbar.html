@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <title>First Website</title>
+    <style>
+        body{
+            color: white;
+            background-color: black;
+            
+        }
+        section{
+             /* border: 10px solid red; */
+            align-items: center;
+            display: flex;
+            height: 50vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+       .navbar{
+        font-family: 'Allison', cursive;
+           font-size: 20px;
+           display: flex;
+           /* flex-direction: row; */
+           list-style: none;
+           padding: 20px 30px;
+       }
+       p{
+           text-align: center;
+       }
+       li{
+           padding: 10px 50px;
+           width: 30px;
+           /* border: 10px solid red; */
+       }
+       header::before{
+           content: "";
+           background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+           position: absolute;
+           top: 0%;
+           left: 0%;
+           width: 100%;
+           height: 100%;
+           z-index: -1;
+           opacity: 0.5;
+       }
+       /* section::after{
+           content: "this is a content";
+       } */
+    </style>
+</head>
+<body>
+    <header>
+        <nav >
+            <ul class="navbar">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Service</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h1>Welcome to coding world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis adipisci ipsa velit praesentium aperiam, dolorum, labore officia nemo fugit perspiciatis tempora reiciendis nobis! Vitae quod voluptates quis delectus consequuntur ratione.
+            </p>
+        </section>
+   <hr>
+
+
+</body>
+</html>
